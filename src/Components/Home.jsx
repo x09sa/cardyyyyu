@@ -45,7 +45,7 @@ const ImageContainer = ({ name, message, background, setBackground }) => {
         <p class="text-sm text-secondary text-right mt-4">{message}</p>
       </div>
 
-      <BackCountainer background={background} setBackground={setBackground} />
+      <BackCountainer background={xcxc} setBackground={setBackground} />
     </div>
   );
 };
