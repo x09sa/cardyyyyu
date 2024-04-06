@@ -10,7 +10,7 @@ const ImageContainer = ({ name, message, background, setBackground }) => {
   return (
     <div class="text-center flex-1">
       <div
-        class={`shadow-md rounded flex flex-col my-2 flex-1 px-8 py-6 text-center h-96 items-center justify-center relative  ${src/assets/dfdfdf.png} `}
+        class={`shadow-md rounded flex flex-col my-2 flex-1 px-8 py-6 text-center h-96 items-center justify-center relative  ${background} `}
         id="image-container"
       >
         <img
