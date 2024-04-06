@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import imageEid from "../assets/eid.png";
+import xcxc from "../assets/fdfdfd.png";
 import imageEid2 from "../assets/eid (1).png";
 import imageEid3 from "../assets/eid (2).png";
 import imageEid4 from "../assets/eid (3).png";
@@ -10,7 +11,7 @@ const ImageContainer = ({ name, message, background, setBackground }) => {
   return (
     <div class="text-center flex-1">
       <div
-        class={`shadow-md rounded flex flex-col my-2 flex-1 px-8 py-6 text-center h-96 items-center justify-center relative  ${background} `}
+        class={`shadow-md rounded flex flex-col my-2 flex-1 px-8 py-6 text-center h-96 items-center justify-center relative  ${xcxc} `}
         id="image-container"
       >
         <img
